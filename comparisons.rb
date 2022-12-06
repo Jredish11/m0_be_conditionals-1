@@ -101,15 +101,19 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
+puts loves_to_play && loves_treats
 
 
 # Determine if the dog loves to play and loves the dog park
+puts loves_to_play && loves_dog_park
 
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
-
+puts loves_to_play && age
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:
+#it returned 1 .  There isn't anything that is defined as puppy.  also conditionals need to be true or false.  
+#Logical operators using && will check both values and both must be true in order for a true return.  Age is defined as 1 and therefore not being read as true or false.  
