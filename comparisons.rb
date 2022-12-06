@@ -60,21 +60,25 @@ puts "Is number_students less than or equal to 21?", number_students <= 21
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#YOU DO: This line of code is saying to print 4 is less than 9.  
+#This would return as true as 4 is less than 9.
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# YOU DO: Books are being defined as a variable that equals 3. 
+# Line 66 is asking to print results of 4 less than books.  This would return as false as 4 is more than 3 books.
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# YOU DO: Friends are being defined as a variable that equals 6. 
+#Siblings is a variable that equals 2.  Line 71 asks to print results for friends greater than siblings, this will return true as 6 is greater than 2.
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# YOU DO: attendees is being defined as a variable that equals 9. meals is being defined as a variable that equals 8.
+# line 79 asks to print results for if number of attendees does not equal number of meals.  This would return as true as 9 doesn't equal 8.
 
 
 #-------------------
