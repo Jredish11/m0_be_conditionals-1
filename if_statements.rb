@@ -43,9 +43,15 @@ end
 # to make sure both conditions can be achieved.
 
 num_quarters = 0
-
+num_quarters = 2
+if num_quarters >= 2
 puts "I have enough money for a gumball"
+else 
 puts "I don't have enough money for a gumball"
+end
+
+
+
 
 
 #####################
